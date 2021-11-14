@@ -144,7 +144,15 @@ a:active {
   display: inline-block;
 }
 
-
+.novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+  background: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+}
 
 
 /* --- Principal >> Nuvem de tags --- */
