@@ -100,6 +100,7 @@ a:active {
   margin-left: 2.5%;
   margin-right: 2.5%;
   display: inline-block;
+  position: relative;
 }
 
 #posts-principais .post .titulo {
@@ -112,6 +113,22 @@ a:active {
   box-sizing: border-box;
   border: 6px solid white;
   margin-bottom: .5em;
+}
+
+#posts-principais .post h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.boo {
+  opacity: 0;
+  transition: all 200ms ease; /* <---- */
+}
+.boo:hover {
+  opacity: 1;
 }
 
 
