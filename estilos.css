@@ -82,7 +82,31 @@ a:active {
   padding-bottom: 3em;
 }
 
+.boo {
+  opacity: 0.75;
+  width: 40px;
+  position: fixed;
+}
 
+.boo:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#boo1 {
+  top: 20px;
+  left: 200px;
+}
+
+#boo2 {
+  top: 500px;
+  right: 200px;
+}
+
+#boo3 {
+  bottom: 20px;
+  left: 100px;
+}
 
 
 /* --- Principal >> Postagens principais --- */
@@ -121,17 +145,13 @@ a:active {
   left: 0;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.5);
-}
-
-.boo {
   opacity: 0;
   transition: all 200ms ease; /* <---- */
 }
-.boo:hover {
+
+#posts-principais .post h2:hover {
   opacity: 1;
 }
-
-
 
 
 /* --- Principal >> Últimas postagens --- */

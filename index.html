@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite|Aldrich">
   <link rel="stylesheet" href="estilos.css">
   <link rel="shortcut icon" href="imgs/favicon.png">
+
+  <script src="boos.js" defer></script>
 </head>
 
 <body>
@@ -26,7 +28,7 @@
   </header>
 
   <!-- OBS: não remova a class="desaparecido" porque ela está sendo usada pra
-         esconder este elemento até o vídeo acabar (tem uma regra CSS para
+        esconder este elemento até o vídeo acabar (tem uma regra CSS para
          ocultar quem tem .desaparecido)-->
   <main id="conteudo-principal" class="desaparecido">
     <!-- opa, <section> já é um elemento semântico. Dica: podemos
@@ -47,7 +49,7 @@
       <article class="post">
         <img src="imgs/arvores.jpg"
           alt="Uma floresta com várias árvores com caules tortos com espaço de aproximadamente 2m entre cada">
-        <h2 class="titulo boo">
+        <h2 class="titulo">
           Conheça a Enigmática "Crooked Forest": Centenas de Árvores
           em uma Floresta Foram Entortadas por "Forças Misteriosas", na Polônia?
         </h2>
@@ -56,7 +58,7 @@
       <article class="post">
         <img src="imgs/ursa.jpg"
           alt="Duas fotos de ursos polares em um ambiente que imita cavernas glaciais e outra foto aérea de um parque temático com diversos ambientes aquáticos">
-        <h2 class="titulo boo">
+        <h2 class="titulo">
           O Mistério de Szenja: Uma Ursa Polar Morreu de "Coração Partido"
           ao ser Separada de Sua Companheira no SeaWorld, nos Estados Unidos?
         </h2>
@@ -67,7 +69,7 @@
     <section id="ultimas-postagens">
       <h1>Últimas Postagens</h1>
       <!-- class="palavra1 palavra2" quer dizer que o elemento possui DUAS
-             CLASSES. Portanto, uma regra CSS .palavra1 seleciona ele, bem
+              CLASSES. Portanto, uma regra CSS .palavra1 seleciona ele, bem
              como uma .palavra2 -->
       <article class="post novidade">
         <time class="data-horario" datetime="2021-05-09">09/05/2021</time>
@@ -100,6 +102,14 @@
         </h2>
       </article>
     </section>
+
+    <img src="imgs/boo1.gif" id="boo1" class="boo"
+      alt="Imagem de um fantasma do super-mario. Corpo circular branco, e quando abre a boca não aparece a língua.">
+    <img src="imgs/boo2.gif" id="boo2" class="boo"
+      alt="Imagem de um fantasma do super-mario. Corpo circular branco, e com boca serrilhada e vermelha.">
+    <img src="imgs/boo3.gif" id="boo3" class="boo"
+      alt="Imagem de um fantasma do super-mario. Corpo circular branco, com a língua balançando vermelha.">
+
   </main>
 
   <footer id="rodape">
@@ -132,7 +142,7 @@
   </footer>
 
   <!-- não remova a class="backdrop" porque ela está sendo usada para
-         estilizar este elemento no CSS e usada também no JavaScript para ocultar
+                estilizar este elemento no CSS e usada também no JavaScript para ocultar
          o vídeo depois que ele acaba -->
   <figure class="backdrop">
     <video src="videos/vinheta.mp4" autoplay muted></video>
