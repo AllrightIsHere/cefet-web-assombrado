@@ -159,11 +159,22 @@ a:active {
   background-size: 300px;
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
+  position: relative;
 }
 
 #tags h1 {
   margin-bottom: 1em;
   text-shadow: 2px 2px #000;
+}
+
+#tags > span {
+  cursor: pointer;
+}
+
+#tags > span:active {
+  position: relative;
+  top: -2px;
+  left: -2px;
 }
 
 .tag-1,
